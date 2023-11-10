@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogsApp", "DogsApp.csproj", "{DB1F3A00-E0B7-4706-B99B-EC6668C25958}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogsApp.Infrastructure", "..\DogsApp.Infrastructure\DogsApp.Infrastructure.csproj", "{26D97635-082E-4B09-A3BF-C1307DC0AAA8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB1F3A00-E0B7-4706-B99B-EC6668C25958}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB1F3A00-E0B7-4706-B99B-EC6668C25958}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB1F3A00-E0B7-4706-B99B-EC6668C25958}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB1F3A00-E0B7-4706-B99B-EC6668C25958}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26D97635-082E-4B09-A3BF-C1307DC0AAA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26D97635-082E-4B09-A3BF-C1307DC0AAA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26D97635-082E-4B09-A3BF-C1307DC0AAA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26D97635-082E-4B09-A3BF-C1307DC0AAA8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B346F82-C41C-4A1E-A512-E4B44A9A87BB}
+	EndGlobalSection
+EndGlobal
