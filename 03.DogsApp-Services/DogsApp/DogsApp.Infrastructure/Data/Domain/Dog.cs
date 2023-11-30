@@ -26,5 +26,7 @@ namespace DogsApp.Infrastructure.Data.Domain
         public virtual Breed Breed { get; set; } = null!;
 
         public string? Picture { get; set; }
+        public string OwnerId { get; set; } = null!;
+        public virtual ApplicationUser Owner { get; set; } = null!;
     }
 }
